@@ -121,7 +121,7 @@ section p{
     } 
    
     section h1 { 
-      margin-top: 50px;
+      margin-top: 100px;
       font-size: 24px; 
       padding-top: 20%; 
     } 
@@ -130,7 +130,7 @@ section p{
     section h3, 
     section h4 { 
       font-size: 20px; 
-      margin-top: 50px; 
+      margin-top: 30px; 
       text-align: center; 
     } 
    
