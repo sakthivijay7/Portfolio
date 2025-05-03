@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Healthcare Management (MySQL)</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../css/explain.css" />
+</head>
+<body>
+  
+    <nav id="nav">
+       <a href="#Explanation">Explanation</a>
+        <a href="#Result">Result</a>
+        <a href="#Conclusion">Conclusion</a>
+        <a href="https://github.com/sakthivijay7/Healthcare-Database-Management-system-using-MYSQL">Code</a>
+    </nav>
+    <section id="Explanation">
+        <h1>Explanation</h1>
+        <h2 >Healthcare Management System using MySQL</h2>
+        <p>
+          Dataset includes patient details (Name, Age, Gender, Blood Type, Medical Condition), Admission records (Doctor, Date, Hospital, Insurance, Billing), Medical records, Medications and Test Results. Data structured into MySQL tables and queried using SQL.
+        </p>
+    </section>
+    <section id="Result">
+        <h1>Result</h1>
+        <p>
+          Sample SQL Queries:<br>
+          1.Retrieve the Names, Ages, and Medical conditions of all patients:<br>
+         &#10022; SELECT Name, Age, MedicalCondition FROM patients;<br>
+          2.Find cancer patients aged 30-50 with doctor and billing details:<br>
+          &#10022; SELECT p.Name, p.Gender, p.Age, a.Doctor, p.MedicalCondition, b.InsuranceProvider, b.BillingAmount
+          FROM patients p<br>
+          JOIN admissions a ON p.Patient_Id = a.Patient_Id<br>
+          JOIN billing b ON p.Patient_Id = b.Patient_Id<br>
+          WHERE p.MedicalCondition = "Cancer" AND p.age BETWEEN 31 AND 49;<br>
+          3.Total number of patients by blood type:<br>
+          &#10022; SELECT BloodType, COUNT(Patient_Id) AS total FROM patients 
+          <br>GROUP BY BloodType;<br>
+          At the end results data to be export  in csv,xlsx(Excel),... format.
+        </p>
+    </section>  
+    <section id="Conclusion">
+        <h1>Conclusion</h1>
+        <p>
+          The healthcare management system using MySQL provides a structured approach to managing patient data, admissions, billing, and medical records. The SQL queries allow for data retrieval and analysis,healthcare professionals to make informed decisions based on patient information.
+        </p>
+    </section>
+      <a href="project.html" id="back"><span>Back</span></a>
+</body>
+</html>

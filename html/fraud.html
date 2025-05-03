@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Credit Card Fraud Detection</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../css/explain.css" />
+</head>
+<body class="is-preload">
+ 
+    <nav id="nav">
+      <a href="#Explanation">Explanation</a>
+      <a href="#Result">Result</a>
+      <a href="#Conclusion">Conclusion</a>
+      <a href="https://github.com/sakthivijay7/Credit_card-transaction-fraud-identify-and-EDA-using-Python">Code</a>
+    </nav>
+    <section id="Explanation">
+        <h1>Explanation</h1>
+        <h2>Credit Card Fraud Classification using Python</h2>
+        <p>
+          Kaggle dataset loaded in Python using pandas. Null values handled and categorical data encoded. Features like Amount, Category, State, Merchant, Location used for model training.<br> Target:is_fraud.<br> Algorithms used:
+          Logistic Regression, KNN, Naive Bayes, Decision Tree, Random Forest, SVC.<br>
+          Models stored as pickle files and predictions made based on user inputs.
+        </p>
+        <img src="../images/credit/credit.PNG"/>
+        <p>
+          December end shows spike in total transaction volume ~4 lakh+.
+        </p>
+    </section>
+    <section id="Result">
+        <h1>Result</h1>
+        <img src="../images/credit/c2.PNG"/>
+        <p >
+        Random Forest achieved 90%+ accuracy. Categories like shopping network payment (shopping_net),unclassified sites( misc_net) and grocery point of sale (grocery_pos or supermarket) had some frauds. Overall, most categories were clean.
+        </p>
+      </section>
+      <section id="Conclusion"> 
+        <h1>Conclusion</h1>
+        <p>
+          The project successfully implemented a credit card fraud detection system using various machine learning algorithms. The Random Forest model  with an accuracy of over 90%. The analysis of transaction categories provided  fraud patterns and more robust fraud detection systems.
+        </p>
+      </section>
+      <a href="project.html" id="back"><span>Back</span></a>
+  </body>
+</html>

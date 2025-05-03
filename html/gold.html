@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Gold Forecasting Project</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../css/explain.css" />
+</head>
+<body >
+       <nav id="nav">
+       <a href="#Explanation">Explanation</a>
+       <a href="#Result">Result</a>
+       <a href="#Conclusion">Conclusion</a>
+       <a href="https://github.com/sakthivijay7/Gold-price-forecasting-using-Time-series-analysis-python">Code</a>
+      </nav>
+
+    
+      <section id="Explanation">
+          <h1>Explanation</h1>
+          <h2>Gold price forecasting datetime-based using Python</h2>
+          <img src="../images/gold/Gold_forecast.png">
+          <p>
+          Using Yahoo Finance, historical gold prices (2000-2025) were scraped for XAU/USD. Features were extracted (year, month, day, week, etc.). Various regression models were trained:
+          Linear, Polynomial, SVR, KNN, XGBoost, GradientBoost, Decision Tree, Random Forest. Best performing (XGBoost) was used for forecasting with matplotlib visualization. Data was converted to multiple currency formats and used in Power BI.
+           </p>
+      </section>
+      <section id="Result">
+          <h1>Result</h1>
+          <h2>XGBRegressor:</h2>
+          <p><span>
+          R2 Score:0.9978<br>
+          MSE:790.49<br>
+          XGBoost model gives near-perfect accuracy.</p></span>
+
+          <h3> Below is the Power BI Dashboard overview:</h3>
+          <img src="../images/gold/g-pbi.PNG"/>
+          <p >
+          • Global Gold volume:6.77 billion<br>
+          • Change Price:37.14k,<br>
+          • Change %:-3.85% <br>
+          • Yearly trends and country-wise comparison show insights about global economy and currency impact.
+           </p>
+            
+      </section>
+      <section id="Conclusion">
+          <h1>Conclusion</h1>
+          <p>
+          The XGBoost model achieved an impressive R2 score of 0.9978, indicating its effectiveness in predicting gold prices. The Power BI dashboard provides overview of the global gold market and highlighting trends.The analysis of gold prices in multiple currencies further enhances the understanding of market dynamics, making it a valuable tool for investors. 
+
+          </p>
+      </section>    
+       <a href="project.html" id="back"><span>Back</span></a>
+  
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Ironman vs Ultron (DL)</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../css/explain.css" />
+</head>
+<body class="is-preload">
+   <nav id="nav">
+      <a href="#Explanation">Explanation</a>
+      <a href="#Result">Result</a>
+      <a href="#Conclusion">Conclusion</a>
+      <a href="https://github.com/sakthivijay7/small-cnn-for-image-classification-using-pyhton/blob/main/image_classify.ipynb">Code</a>
+    </nav>
+    <section id="Explanation">
+      <h1>Explanation</h1>
+      <h2>Image classification Ironman vs Ultron</h2>
+      <p >Dataset:<br>
+        Ironman and ultron images  downloaded by craweler from google.Image_size 224x224 pixels and trainning had each class 40 images and test had each class 10 images. <br>
+        overviwe:<br>
+        Create a convolution neural network for classify.<br>
+        Tools:<br>
+        Tesnsorflow & keras cnn architecture, Numpy,Jupyternotebook,Data augmentation for better learning.<br>
+        Model summary:<br>
+        Convolution neural network(CNN) layers,Maxpooling,flatten,Dense layer <br>
+        Optimizer : adam (Adaptive moment estimation),loss:binary_crossentropy<br>
+        <br>
+        
+       </p>
+    </section>
+    <section id="Result">
+      <h1>Result</h1>
+        <img src="../images/iron-classify/graph.PNG" ><br>
+        <p> Model trainning accuracy: 0.8 to 0.9 (epoch 6-9)learn good,<br>
+        validation accuracy:<br>
+        Reached 1.0 by after epoch 5.<br>
+        Model save in h5 (Hirarchical data format5)
+      <h2>streamlit web app for Model prediction:</h2>
+        <h4>User Interface for file upload:<br>
+        <img src="../images/iron-classify/ui.PNG" ></h4>
+         <h4>Iron Man:
+        <img src="../images/iron-classify/ironman.PNG" ></h4>
+        <h4>Ulron:
+            <img src="../images/iron-classify/ultron.PNG" ></h4>
+      </p>
+    <section id="Conclusion"> 
+      <h1>Conclusion</h1>
+      <p>In this project image classification for CNN using deeplearning in python.UI for upload file then classify if Iron man or ultron.More image dataset for enhance prediction will be achive.  
+
+      </p>  
+    </section>
+    <a href="project.html" id="back"><span>Back</span></a>
+</body>
+</html>
