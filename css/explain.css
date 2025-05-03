@@ -71,6 +71,8 @@ section img{
 }
 section p{
     display: flex;
+    word-break:break-word;
+    overflow-wrap:break-word;
     font-size:30px;
     display:flex;
     margin-left:15%;
