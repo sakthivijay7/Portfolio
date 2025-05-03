@@ -150,12 +150,13 @@ section span{
 }
 
 @media screen and (max-width: 768px) {
-  #video{
+  video{
+    width:100%;
+    height:auto  ; 
     position:fixed;
     background-size: cover;
     background-position: center;
-    z-index: -1;
-    filter: none;}
+    }
     html{
       scroll-behavior: smooth;
   } 
@@ -177,6 +178,7 @@ section span{
   .myname {
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
     color:rgb(247, 248, 248);
+    margin-top:30%;  
     font-size: 36px; 
   } 
  
@@ -188,7 +190,7 @@ section span{
  
   section h1 { 
     color: #0e0000;
-    margin-top: 15%;
+    margin-top: 30%;
     font-size: 26px; 
   } 
  
@@ -234,7 +236,7 @@ section span{
   } 
  
   .contact img { 
-    margin-left: 2%;
+    margin-left: 3%;
     width: 50px; 
     height: 50px; 
   } 
