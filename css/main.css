@@ -180,7 +180,7 @@ section span{
  
   section h1 { 
     color: #0e0000;
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 26px; 
   } 
  
@@ -223,7 +223,7 @@ section span{
     margin-top: 1%;
   flex-direction:center; 
     align-items: center;
-    gap: 30px; }
+    gap: 20px; }
   .contact img { 
     margin-left: 1%;
     width: 40px; 
