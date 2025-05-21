@@ -24,7 +24,7 @@ text-decoration:none;
 padding-left:2%;
 padding-right:2%;
 padding:1%;
-font-size: 45px;
+font-size: 30px;
 text-align: center;
 border-radius: 10px;
 box-shadow: 0 0 20px rgb(21, 223, 250);
@@ -32,12 +32,12 @@ box-shadow: 0 0 20px rgb(21, 223, 250);
 nav a:hover{
     background-color: #00bcdd;
     color: #0e0000;
-    box-shadow: 0 0 20px rgb(240, 238, 238);
+    box-shadow: 0 0 10px rgb(240, 238, 238);
     transform: scale(0.80);
 }  
 section h1{
     color:rgb(240, 238, 238);
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 9%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;}
@@ -70,26 +70,16 @@ section span{
     align-items: center;
     text-align: center;
 }
-.sk{
-    display: flex;
-    justify-content: center;
-    gap:33%;
-    padding-left: 4%;
-    color: rgb(245, 235, 235);
-    text-shadow:4px 4px 5px rgba(12, 223, 188, 10);
-    font-size: 30px;
-    font-family: 'Courier New', Courier;
-} 
 .myname{
     color: rgb(255, 255, 255);
     padding-top: 2%;
-    font-size: 85px;
+    font-size: 80px;
     font-family: 'Courier New' bold;
     text-shadow: 4px 4px 5px #00bcdd;
 }
 .interest{
     color:rgb(255,255,255);
-    font-size: 55Px;
+    font-size: 50Px;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 4px 4px 5px #00bcdd;
 }
@@ -111,13 +101,13 @@ section span{
 }
 
 .skill-item img{
-    width: 140px;
-    height:140px;
+    width: 100px;
+    height:100px;
 }
 .skill-item span{
     color:rgb(17, 14, 17);
     margin-top: 18px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Georgia';
     text-align:center;
 }
@@ -135,16 +125,16 @@ section span{
     gap: 10%;
 } 
 .contact img{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     flex-direction: column;
     transform:translate(-50%,-50%);
     transition:transform 0.1s ease;
     cursor: pointer;
     }
 .contact img:active{
-    width:75px;
-    height: 75px;
+    width:30px;
+    height: 30px;
     cursor: pointer ;
     transform:translate(-50%,-50%) scale(0.95) ;  
 }
@@ -179,7 +169,7 @@ section span{
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
     color:rgb(0, 0, 0);
     margin-top:30%;  
-    font-size: 36px; 
+    font-size: 35px; 
   } 
  
   .interest { 
@@ -220,8 +210,8 @@ section span{
  
   .skill-item img { 
     margin-top: 10%;
-    width: 80px; 
-    height: 80px; 
+    width: 50px; 
+    height: 50px; 
   } 
  
   .skill-item span { 
@@ -237,8 +227,8 @@ section span{
  
   .contact img { 
     margin-left: 3%;
-    width: 50px; 
-    height: 50px; 
+    width: 30px; 
+    height: 30px; 
   } 
 } 
 
