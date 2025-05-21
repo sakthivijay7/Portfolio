@@ -180,7 +180,7 @@ section span{
  
   section h1 { 
     color: #0e0000;
-    margin-top: 150px;
+    margin-top: 10%;
     font-size: 26px; 
   } 
  
@@ -213,19 +213,16 @@ section span{
     width: 60px; 
     height: 60px;
   } 
- 
   .skill-item span { 
     font-size: 15px; 
-      
-  } 
- 
+ } 
   .contact { 
     margin-top: 1%;
   flex-direction:center; 
     align-items: center;
     gap: 20px; }
   .contact img { 
-    margin-left: 1%;
+    margin-left: 2%;
     width: 40px; 
     height: 40px; 
   } 
