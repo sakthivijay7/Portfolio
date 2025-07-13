@@ -22,7 +22,7 @@ html{
     text-decoration:none;
     font-weight: bold;
     padding:1%;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 20px rgb(0, 6, 8);
@@ -33,38 +33,38 @@ html{
     background-color: #58f092;
     box-shadow: #000805;}
 section h1{
-    font-size:35px;
+    font-size:30px;
     color: #2c1818;
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 4%;
     text-decoration: underline;
     
 }  
 section h2{
-    margin-top: 3%;
-    font-size:33px;
-    word-spacing:5px;
+    margin-top: 2%;
+    font-size:28px;
+    word-spacing:3px;
     display:flex;
     justify-content:center;
 }  
 section h3{
-    margin-top:3%;
-    font-size:30px;
+    margin-top:2%;
+    font-size:27px;
     display:flex;
     justify-content:center;
 }
 section h4{
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     padding: 2%;
     text-decoration: underline;
     margin-top:1%;
 }
 section img{
     margin:0 auto;
-    width:1000px;
-    height:600px;
+    width:700px;
+    height:400px;
     display: flex;
     justify-content: center;
     
@@ -73,13 +73,13 @@ section p{
     display: flex;
     word-break:break-word;
     overflow-wrap:break-word;
-    font-size:25px;
+    font-size:23px;
     display:flex;
-    margin-left:15%;
+    margin-left:13%;
     margin-top: 1%;
-    margin-right:15%;
-    word-spacing: 10px;
-    line-height: 1.8;
+    margin-right:13%;
+    word-spacing: 8px;
+    line-height: 1.5;
 }
 #Result span{
     display: flex;
@@ -94,7 +94,7 @@ section p{
     bottom:1px;
     text-decoration: none;
     left:45%; 
-    font-size: 25px;
+    font-size: 23px;
     background-color: #f7d0d0;
     border-radius: 10px;
     padding-left:2%;
