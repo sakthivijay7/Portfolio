@@ -26,7 +26,7 @@ html{
     text-decoration:none;
     font-weight: bold;
     padding: 1%;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(233, 242, 245);
 }
@@ -39,7 +39,7 @@ html{
 section h1{
     display:flex;
     justify-content:center;
-    font-size: 30px;
+    font-size: 25px;
     padding-top:8%;
     color:rgb(215, 228, 231);
     text-decoration:underline;
@@ -55,7 +55,7 @@ section h1{
     overflow:hidden;
  }
 .project-card{
-    height:20%;
+    height:18%;
     width: 45%;
     box-sizing:border-box ;
     text-align:center;
@@ -68,7 +68,7 @@ section h1{
 .project-card h2{
     color: #eee7e8;
     justify-content: center;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     word-wrap:break-word;
     font-family: 'Times New Roman', Times, serif;
@@ -76,8 +76,8 @@ section h1{
 }
 .project-card img{
     box-shadow: 0 0 20px rgb(240, 238, 238);
-    height:300px;
-    width:500px;
+    height:200px;
+    width:350px;
     object-fit:cover;
     text-align: center;
     justify-content:center;
@@ -88,9 +88,9 @@ section h1{
 .project-card p{
     text-overflow: ellipsis;
     word-wrap: break-word;
-    padding: 24px;
+    padding: 20px;
     color: #eaf1f5;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     justify-content: center;
     font-family:'Segoe UI';
@@ -102,7 +102,7 @@ section h1{
     color:rgb(25, 240, 229);
     background-color:#fafbff;
     box-shadow:0 0 2px #3de9f5;
-    font-size: 30px;
+    font-size: 23px;
     border-radius: 20px;
     padding: 9px 9%;
     text-decoration: none;
@@ -119,7 +119,7 @@ section h1{
     bottom:1px;
     text-decoration: none;
     left:47%; 
-    font-size: 25px;
+    font-size: 18px;
     background-color: #fafbff;
     border-radius: 10px;
     padding-left:2%;
