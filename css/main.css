@@ -24,7 +24,7 @@ text-decoration:none;
 padding-left:2%;
 padding-right:2%;
 padding:1%;
-font-size: 24px;
+font-size: 20px;
 text-align: center;
 border-radius: 10px;
 box-shadow: 0 0 20px rgb(21, 223, 250);
@@ -56,9 +56,9 @@ section p{
     box-shadow: 0 0 20px rgb(4, 248, 236);
 }
 section span{
-    font-size: 20px;
-    word-spacing:18px;
-     font-weight: 700;}
+    font-size: 18px;
+    word-spacing:10px;
+     font-weight: 500;}
 
 
     
