@@ -114,15 +114,15 @@ section p{
     #nav { 
       display:grid;
       grid-template-columns:repeat(4,1fr);
-        width:fit-content;
+        width:100%;
         height:30px;
         margin-top:5px;
         padding:5px;
-        text-align:center;
     } 
    
     #nav a { 
       font-size: 15px;
+        padding:3px;
     } 
    
     section h1 { 
