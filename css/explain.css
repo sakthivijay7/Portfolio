@@ -114,14 +114,11 @@ section p{
     #nav { 
       display:grid;
       grid-template-columns:4,1fr;
-      gap: 8px; 
-      height: auto; 
-      padding: 10px; 
     } 
    
     #nav a { 
-      font-size: 20px; 
-      padding: 10px; 
+      font-size: 15px; 
+      padding: 5px; 
     } 
    
     section h1 { 
