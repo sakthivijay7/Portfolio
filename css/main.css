@@ -187,10 +187,10 @@ section span{
     word-spacing: 5px; 
   } 
   .skills-wrap { 
-    flex-direction:center; 
     gap: 5px; 
     display:grid; 
     grid-template-columns:repeat(2,1fr);
+   margin-left:10px;
   } 
  
   .skill-item img { 
@@ -201,9 +201,11 @@ section span{
   .skill-item span { 
     font-size: 13px; 
       color:white;
+      text-wrap:wrap;
  } 
   .contact { 
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-left:3%;
     flex-direction:center; 
     align-items: center;
     gap: 25px; 
