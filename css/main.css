@@ -136,13 +136,6 @@ section span{
 }
 
 @media screen and (max-width: 768px) {
-  video{
-    width:100%;
-    height:auto  ; 
-    position:fixed;
-    background-size: cover;
-    background-position: center;
-    }
     html{
       scroll-behavior: smooth;
   } 
@@ -156,26 +149,28 @@ section span{
     font-size: 13px; 
     padding: 8px 10px; 
   } 
- 
+ body{
+     background-color:rgb(1, 48, 56);
+ }
   .intro { 
     padding-top: 20%; 
   } 
  
   .myname {
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
-    color:rgb(0, 0, 0);
+    color:white;
     margin-top:20%;  
     font-size: 30px; 
   } 
  
   .interest { 
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
-    color:rgb(0, 0, 0);
+    color:white;
     font-size: 20px; 
   } 
  
   section h1 { 
-    color: #0e0000;
+    color: white;
     margin-top: 10%;
     font-size: 22px; 
   } 
