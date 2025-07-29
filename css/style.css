@@ -138,9 +138,7 @@ section h1{
     scroll-behavior: smooth;
 }
 .detail{
-    background-repeat: no-repeat;
-    background-position:cover;
-    background-attachment: fixed;
+    background-color:white;
 }
 .section-nav { 
       flex-direction: column; 
