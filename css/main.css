@@ -174,11 +174,9 @@ section span{
   } 
  
   section h1 { 
-      display:flex;
     color: white;
     margin-top: 20%;
     font-size: 22px; 
-    text-align:center;
   } 
  
   section p { 
