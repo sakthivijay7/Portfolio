@@ -186,13 +186,9 @@ section span{
     font-size: 12px; 
     word-spacing: 5px; 
   } 
- 
-  .sk { 
+.skill-item{
     display:grid; 
-    grid-template-columns:repeat(2,1fr); 
-    gap: 8px; 
-    font-size: 15px; 
-  } 
+    grid-template-columns:repeat(2,1fr);}
  
   .skills-wrap { 
     flex-direction:center; 
