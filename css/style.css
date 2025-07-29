@@ -156,7 +156,7 @@ section h1{
     grid-templates-column:3,1fr;
       text-align: center;
       gap: 5px; 
-      top: 5px; 
+      top: 4px; 
       background-color: rgba(255,255,255,0.9); 
       width: 100%; 
       height:150px;
@@ -182,7 +182,7 @@ section h1{
    
     .project-card { 
       width: 90%; 
-      margin-bottom: 20px; 
+      margin-bottom: 80px; 
     } 
    
     .project-card img { 
