@@ -211,8 +211,8 @@ section span{
   .contact { 
     margin-top: 2%;
     margin-left:5%;
-    flex-direction:center; 
-    align-items: center;
+    display:flex;
+      width:100%;
     gap: 25px; 
   }
   .contact img { 
