@@ -195,7 +195,8 @@ section span{
     gap: 5px; 
     display:grid; 
     grid-template-columns:repeat(2,1fr);
-   margin-left:60px;
+      text-align:center; 
+      margin-left:60px;
   } 
     
   .skill-item img { 
@@ -211,12 +212,10 @@ section span{
   .contact { 
     margin-top: 2%;
     display:flex;
-      width:100%;
+    width:100%;
     gap: 25px; 
   }
   .contact img { 
-    display:flex;
-    justify-content:center;
     width: 40px; 
     height: 40px; 
   } 
