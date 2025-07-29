@@ -138,7 +138,12 @@ section span{
 @media screen and (max-width: 768px) {
     html{
       scroll-behavior: smooth;
-  } 
+  }
+#video{
+    width:100vw;
+    height:100vh;
+    object-fit:cover;
+}
   nav { 
     flex-direction:center; 
     align-items: center; 
