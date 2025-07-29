@@ -148,7 +148,7 @@ section span{
   nav { 
     flex-direction:center; 
     align-items: center; 
-    gap: 3px; 
+    gap: 7px; 
   } 
  
   nav a { 
@@ -157,7 +157,7 @@ section span{
   } 
     
   .intro { 
-    padding-top: 20%; 
+    padding-top: 17%; 
   } 
  
   .myname {
@@ -177,6 +177,7 @@ section span{
     color: white;
     margin-top: 15%;
     font-size: 22px; 
+    text-align:center;
   } 
  
   section p { 
@@ -194,7 +195,7 @@ section span{
     gap: 5px; 
     display:grid; 
     grid-template-columns:repeat(2,1fr);
-   margin-left:30px;
+   margin-left:60px;
   } 
     
   .skill-item img { 
@@ -205,11 +206,11 @@ section span{
   .skill-item span { 
     font-size: 13px; 
       color:white;
-      text-wrap:wrap;
+      text-align:center;
  } 
   .contact { 
     margin-top: 2%;
-    margin-left:3%;
+    margin-left:5%;
     flex-direction:center; 
     align-items: center;
     gap: 25px; 
