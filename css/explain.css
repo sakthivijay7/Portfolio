@@ -117,8 +117,8 @@ section p{
     } 
    
     #nav a { 
-      font-size: 15px; 
-      padding: 5px; 
+      font-size: 15px;
+        gap:0;
     } 
    
     section h1 { 
