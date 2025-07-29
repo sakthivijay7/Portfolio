@@ -136,20 +136,12 @@ section h1{
 @media (max-width: 768px) { 
   html{
     scroll-behavior: smooth;
-      .detail{
-    background-image:url(../bg/hd6.jpg);
-    background-repeat: no-repeat;
-    background-position:cover;
-    background-attachment: fixed;
-    animation: slide 20s linear infinite;
-    width:100%;
-    height:100%
+  }
+    .detail{
+    background-image:none;
+    background-color:  rgb(2, 129, 129);    
+}
 
-}
-@keyframes slide{ 
-    0%{background-size:100%}
-    100%{background-size:130%}}
-}
 .section-nav { 
       display: grid;
       grid-template-columns:repeat(3,1fr);
