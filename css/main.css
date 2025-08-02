@@ -165,7 +165,7 @@ section span{
   .myname {
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
     color:white;
-    margin-top:70%;  
+    margin-top:60%;  
     font-size: 30px; 
   } 
  
@@ -178,7 +178,7 @@ section span{
   section h1 { 
     color: white;
       text-shadow: 1px 1px 1.5px #00bcdd;
-    margin-top: 40%;
+    margin-top: 70%;
     font-size: 22px; 
   } 
  
@@ -225,6 +225,7 @@ section span{
 
 
     
+
 
 
 
