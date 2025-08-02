@@ -85,21 +85,18 @@ section span{
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 4px 4px 5px #00bcdd;
 }
-.skills-wrap{
-    display:flex;
-    flex-wrap:wrap;
+.skill-item{
+    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns:repeat(2 ,1fr);
+    border-radius: 10%;
+    transition: 0.3s ease;
+    margin-top:10%;
     justify-content:center;
     text-align:center;
     align-items:center;
     font-family: sans-serif;
     gap:3%;
-}
-.skill-item{
-    flex-wrap: wrap;
-    display:flex;
-    border-radius: 10%;
-    transition: 0.3s ease;
-    margin-top:10%;
 }
 
 .skill-item img{
@@ -235,6 +232,7 @@ section span{
 
 
     
+
 
 
 
