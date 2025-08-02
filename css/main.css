@@ -39,8 +39,13 @@ section h1{
     color:rgb(240, 238, 238);
     font-size: 34px;
     padding-top: 9%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;}
+    text-align: center;
+}
 section p{
     color:rgb(0, 2, 2);
     line-height: 60px;
@@ -93,7 +98,7 @@ section span{
     display:flex;
     border-radius: 10%;
     transition: 0.3s ease;
-    margin-top:8%;
+    margin-top:10%;
 }
 
 .skill-item img{
@@ -101,7 +106,8 @@ section span{
     height:80px;
 }
 .skill-item span{
-    color:rgb(17, 14, 17);
+    color:rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px #00bcdd;
     margin-top: 18px;
     font-size: 19px;
     font-family: 'Georgia';
@@ -228,6 +234,7 @@ section span{
 
 
     
+
 
 
 
