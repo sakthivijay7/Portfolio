@@ -87,9 +87,9 @@ section span{
 }
 .skill-item{
   display: grid;
-  grid-template-columns:repeat(5,1fr);
+  grid-template-columns:repeat(3,1fr);
   margin-left:10%;
-  gap:20px;  
+  gap:50px;  
 }
 legend{
   display: flex;
@@ -234,6 +234,7 @@ legend:hover{
 
 
     
+
 
 
 
