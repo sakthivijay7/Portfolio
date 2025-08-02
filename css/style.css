@@ -9,9 +9,6 @@ html{
     animation: slide 20s linear infinite;
 
 }
-@keyframes slide{ 
-    0%{background-size:100%}
-    100%{background-size:130%}}
 .section-nav{
     position: fixed;
     left:50%;
@@ -209,3 +206,4 @@ section h1{
 
 
      
+
