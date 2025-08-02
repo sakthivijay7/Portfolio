@@ -84,32 +84,35 @@ section span{
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 4px 4px 5px #00bcdd;
 }
-.skill-item{
+.skill-item {
   display: grid;
-  flex-wrap:wrap;
-  grid-template-columns:repeat(4,1fr);
-  margin-left:10%;
-  gap:20px;  
-}
-legend{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  color:rgb(248, 243, 243);
-  text-shadow: 2px 4px 5px #00bcdd;
-}
-legend:hover{
-    background-color: rgb(1, 67, 70);
-    transform: scale(1.05);
-    box-shadow: 0 0 12px rgb(4, 248, 236);
-    width: fit-content;
-    border-radius: 10px;
-} 
-.skill-item img{
-    width: 80px;
-    height:80px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 20px;
 }
 
+.skill-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(248, 243, 243);
+  text-shadow: 2px 4px 5px #00bcdd;
+  transition: all 0.3s ease;
+}
+
+.skill-box:hover {
+  background-color: rgb(1, 67, 70);
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgb(4, 248, 236);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.skill-box img {
+  width: 50px;
+  height: 50px;
+}
 .contact{
     display: flex;
     justify-content: center;
@@ -234,6 +237,7 @@ legend:hover{
 
 
     
+
 
 
 
