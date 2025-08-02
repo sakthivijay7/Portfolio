@@ -94,7 +94,7 @@ section span{
 .skill-box {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   color: white;
   text-shadow: 2px 4px 5px #00bcdd;
 }
@@ -228,6 +228,7 @@ section span{
 
 
     
+
 
 
 
