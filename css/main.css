@@ -179,6 +179,7 @@ section span{
     color: white;
       text-shadow: 1px 1px 1.5px #00bcdd;
     margin-top: 70%;
+      text-align:center;
     font-size: 22px; 
   } 
  
@@ -214,7 +215,7 @@ section span{
  } 
   .contact { 
     margin-top: 2%;
-    width:100%;
+    width:90%;
     gap: 20px; 
   }
   .contact img { 
@@ -225,6 +226,7 @@ section span{
 
 
     
+
 
 
 
