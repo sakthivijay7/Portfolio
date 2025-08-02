@@ -139,12 +139,12 @@ section span{
     html{
       scroll-behavior: smooth;
   }
-#video{
+/* #video{
     display:none;
-}
-     body{
+} */
+/*      body{
      background-color:rgb(1, 48, 56);
- }
+ } */
   nav { 
     flex-direction:center; 
     align-items: center; 
@@ -221,3 +221,4 @@ section span{
 
 
     
+
