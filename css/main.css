@@ -44,7 +44,6 @@ section h1{
     text-align:center;
     align-items:center;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
 section p{
     color:rgb(0, 2, 2);
@@ -87,6 +86,7 @@ section span{
 }
 .skill-item{
   display: grid;
+  flex-wrap:wrap;
   grid-template-columns:repeat(4,1fr);
   margin-left:10%;
   gap:20px;  
@@ -234,6 +234,7 @@ legend:hover{
 
 
     
+
 
 
 
