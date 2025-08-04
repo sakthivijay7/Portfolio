@@ -2,10 +2,22 @@ html{
     scroll-behavior: smooth;
 }
 .detail{
+    position:relative;
+    overflow:hidden;
+    z-index:0;
+.detail::before{
+    content:"";
+    position:absoulte;
+    top:0;
+    left:0;
+    width:100%;
     background-image:url(../bg/bg1.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
-    background-position:cover;
-    background-attachment: fixed;
+    background-position:center;
+    filter:blur(8px);
+    opacity:0.5;
+    z-index:-1;
 }
 .section-nav{
     position: fixed;
@@ -205,6 +217,7 @@ section h1{
 
 
      
+
 
 
 
