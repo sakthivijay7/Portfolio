@@ -2,12 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 .detail{
-    background-image:url(../bg/hd6.jpg);
+    background-image:url(../bg/bg1.jpg);
     background-repeat: no-repeat;
     background-position:cover;
     background-attachment: fixed;
-    animation: slide 20s linear infinite;
-
 }
 .section-nav{
     position: fixed;
@@ -206,4 +204,5 @@ section h1{
 
 
      
+
 
