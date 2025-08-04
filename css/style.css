@@ -3,6 +3,8 @@ html{
 }
 .detail{
     background-image:url(../bg/bg1.jpg);
+    filter:blur(8px);
+    -webkit-filter:blur(8px);
     background-repeat: no-repeat;
     background-position:cover;
     background-attachment: fixed;
@@ -205,6 +207,7 @@ section h1{
 
 
      
+
 
 
 
