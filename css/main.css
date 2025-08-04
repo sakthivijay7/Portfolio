@@ -139,25 +139,24 @@ section span{
       scroll-behavior: smooth;
   }
   nav { 
-      margin-top:5%;
+    margin-top:2%;
     flex-direction:center; 
     align-items: center; 
     gap: 7px; 
   } 
- 
   nav a { 
     font-size: 13px; 
     padding: 8px 10px; 
   } 
     
   .intro { 
-    padding-top: 17%; 
+    padding-top: 20%; 
   } 
  
   .myname {
     text-shadow: 0.5px 0.5px 1.5px #00bcdd; 
     color:white;
-    margin-top:60%;  
+    margin-top:70%;  
     font-size: 30px; 
   } 
  
@@ -171,6 +170,7 @@ section span{
     color: white;
     text-shadow: 1px 1px 1.5px #00bcdd;
     margin-top: 70%;
+    pagging:5px;
     display:flex;
     text-align:center;
     justify-content:center;
@@ -190,7 +190,7 @@ section span{
   } 
   .skill-item {
     grid-template-columns: repeat(2, 1fr); 
-    margin: 5% 10px 0 10px; 
+    margin: 10% 5px 0 5px; 
   }
 
   .skill-box img {
@@ -223,6 +223,7 @@ section span{
 
 
     
+
 
 
 
