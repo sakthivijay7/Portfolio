@@ -197,7 +197,7 @@ section span{
   } 
   .skill-item {
     grid-template-columns: repeat(2, 1fr); 
-    margin: 10px 5%; 
+    margin: 5% 10px 0 10px; 
   }
 
   .skill-box img {
@@ -207,6 +207,8 @@ section span{
 
   .skill-box {
     font-size: 14px;
+    display:flex;
+    align-items:center;
     gap: 8px;       
     padding: 5px;
   }
@@ -228,6 +230,7 @@ section span{
 
 
     
+
 
 
 
