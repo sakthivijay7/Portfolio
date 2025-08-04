@@ -18,7 +18,7 @@ html{
     font-size: 25px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(233, 242, 245);
-    background-color:rgba(252, 252, 250,0.25);
+    background-color:rgba(252, 252, 250,0.1);
 }
 
 .section-nav a:active{
@@ -49,14 +49,15 @@ section h1{
     width: 45%;
     box-sizing:border-box ;
     text-align:center;
-    border:8px solid  #0dc6f5 ;
+    border:5px solid  #0dc6f5 ;
     border-radius:10px;
     background-color: #033f4e;
     flex-wrap: wrap;
     justify-content: center;
 }
 .project-card h2{
-    color:black;
+    color:white;
+    text-shadow: 0 0 20px rgb(0,0,0);
     justify-content: center;
     font-size: 25px;
     text-align: center;
@@ -127,7 +128,7 @@ section h1{
   html{
     scroll-behavior: smooth;
   }
-    .detail{
+body{
     background-image:none;
     background-color:rgb(190, 245, 245);    
 }
@@ -199,6 +200,7 @@ section h1{
 
 
      
+
 
 
 
