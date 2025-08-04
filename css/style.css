@@ -24,7 +24,7 @@ html{
     font-size: 25px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(233, 242, 245);
-    rgba(131, 238, 238, 1);
+    background-color:rgba(131, 238, 238, 1);
 }
 
 .section-nav a:active{
@@ -205,6 +205,7 @@ section h1{
 
 
      
+
 
 
 
