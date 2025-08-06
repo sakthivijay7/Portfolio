@@ -27,13 +27,13 @@ padding:1%;
 font-size: 20px;
 text-align: center;
 border-radius: 10px;
-box-shadow: 0 0 20px rgb(21, 223, 250);
+box-shadow: 0 0 10px rgb(21, 223, 250);
 }
 nav a:hover{
     background-color: #00bcdd;
     color: #0e0000;
     box-shadow: 0 0 10px rgb(240, 238, 238);
-    transform: scale(0.80);
+    transform: scale(0.90);
 }  
 section h1{
     color:rgb(240, 238, 238);
@@ -224,6 +224,7 @@ section span{
 
 
     
+
 
 
 
