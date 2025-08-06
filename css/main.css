@@ -33,7 +33,7 @@ nav a:hover{
     background-color: #00bcdd;
     color: #0e0000;
     box-shadow: 0 0 10px rgb(240, 238, 238);
-    transform: scale(0.90);
+    transform: scale(0.93);
 }  
 section h1{
     color:rgb(240, 238, 238);
@@ -57,7 +57,7 @@ section p{
     border-radius:5%;
     margin: 8%;
     margin-top: 0%;
-    box-shadow: 0 0 20px rgb(4, 248, 236);
+    box-shadow: 0 0 10px rgb(4, 248, 236);
 }
 section span{
     font-size: 18px;
@@ -101,10 +101,10 @@ section span{
 
 .skill-box:hover {
   background-color: rgb(1, 67, 70);
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 0 0 12px rgb(4, 248, 236);
   border-radius: 10px;
-  padding: 5px;
+  padding: 3px;
 }
 
 .skill-box img {
@@ -224,6 +224,7 @@ section span{
 
 
     
+
 
 
 
