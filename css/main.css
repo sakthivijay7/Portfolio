@@ -215,16 +215,17 @@ section h1:hover{
     transition:none;
 }
 .intro{
-    margin-top:85%;
+    margin-top:70%;
   }
   .intro h1{
     font-size:35px;
   }
   .intro h2{
     font-size:16px;
+    margin-bottom:20%;
   }
   section h1{
-    margin-top:30%;
+    margin-top:20%;
     font-size:20px;
   }
   .about{
@@ -261,6 +262,7 @@ section h1:hover{
 
 
     
+
 
 
 
