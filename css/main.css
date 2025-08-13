@@ -209,13 +209,13 @@ section h1:hover{
     margin:10px 10px;
   }
   .navigate img{
-    width:20px;
-    height:20px;
+    width:35px;
+    height:35px;
     transform:none;
     transition:none;
   }
   .intro{
-    margin-top:20%;
+    margin-top:70%;
   }
   .intro h1{
     font-size:25px;
@@ -228,7 +228,7 @@ section h1:hover{
   }
   .about{
     font-size:15px;
-    width:250px;
+    width:400px;
     padding:20px;
   }
   .skill-item{
@@ -245,18 +245,20 @@ section h1:hover{
     font-size:0;
   }
   .contact img{
-    width:30px;
-    height:30px;
+    width:35px;
+    height:35px;
+    bottom:0;
   }
   .contact a:focus span,
   .contact a:active span {
-      font-size: 14px;
+      font-size: 13px;
   }
 }
 
 
 
     
+
 
 
 
