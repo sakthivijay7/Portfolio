@@ -90,7 +90,7 @@ body{
   color:transparent;
   transition:2s ease;
   transform:translateX(200%);
-  animation:coloring 30s linear infinite;
+  animation:cooverflow-x0s linear infinite;
 }
 @keyframes coloring{
   25%{background-image:linear-gradient(rgb(0, 195, 255), rgb(255, 255, 255));}
@@ -204,6 +204,9 @@ section h1:hover{
 
 
 @media (max-width:768px) {
+    body{
+  overflow-x:hidden
+    }
   .navigate{
     gap:10px;
     margin:30px 10px;
@@ -247,7 +250,7 @@ section h1:hover{
   }
   .contact{
     bottom:0;
-    gap:10px;
+    gap:5px;
   }
   .contact span{
     font-size:0;
@@ -264,6 +267,7 @@ section h1:hover{
 
 
     
+
 
 
 
