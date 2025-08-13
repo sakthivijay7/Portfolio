@@ -206,16 +206,19 @@ section h1:hover{
 @media (max-width:768px) {
   .navigate{
     gap:10px;
-    margin:10px 10px;
+    margin:30px 10px;
   }
-  .navigate img{
-    width:35px;
+.navigate a{
+    font-size:16px;
+}  
+    
+.navigate img{
+    width:35px
     height:35px;
     transform:none;
     transition:none;
-  }
-  .intro{
-    margin-top:70%;
+  margin-top{
+    margin-top:80%;
   }
   .intro h1{
     font-size:25px;
@@ -224,6 +227,7 @@ section h1:hover{
     font-size:14px;
   }
   section h1{
+    margin-top:10%;
     font-size:20px;
   }
   .about{
@@ -240,14 +244,15 @@ section h1:hover{
     width:50px;
     height:50px;
   }
-
+  .contact{
+    bottom:0;
+  }
   .contact span{
     font-size:0;
   }
   .contact img{
-    width:35px;
+    hidth:35px;
     height:35px;
-    bottom:0;
   }
   .contact a:focus span,
   .contact a:active span {
@@ -258,6 +263,7 @@ section h1:hover{
 
 
     
+
 
 
 
