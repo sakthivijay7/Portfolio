@@ -170,7 +170,7 @@ section h1:hover{
   margin:5% 0;
   display: flex;
   justify-content: center;
-  gap:7%;
+  gap:6%;
 }
 .contact img{
   width:50px;
@@ -187,7 +187,7 @@ section h1:hover{
   align-items: center;
   text-decoration:none;
   padding:10px;
-  width:80px;
+  width:90px;
 }
 .contact span{
   font-size:0;
@@ -267,6 +267,7 @@ section h1:hover{
 
 
     
+
 
 
 
