@@ -88,13 +88,14 @@ body{
   background-image:linear-gradient(red,blue);
   color:transparent;
   transition:2s ease;
-  animation:coloring 7s linear infinite;
+  animation:coloring 15s linear infinite;
 }
 @keyframes coloring{
-  25%{background-image:linear-gradient(rgb(0, 195, 255), rgb(255, 255, 255));}
-  50%{background-image:linear-gradient(rgb(248, 63, 7),yellow);}
-  75%{background-image:linear-gradient(rgb(255, 10, 214) rgb(234, 234, 241));}
-  100%{background-image:linear-gradient(red, blue);}
+  0%{background-image:linear-gradient(red, blue);} 
+  30%{background-image:linear-gradient(rgb(0, 195, 255), rgb(255, 255, 255));}
+  60%{background-image:linear-gradient(rgb(248, 63, 7),yellow);}
+  90%{background-image:linear-gradient(rgb(255, 10, 214) rgb(234, 234, 241));}
+100%{background-image:linear-gradient(red, blue);} 
 }
 .intro h2{
   font-size:23px;
@@ -264,6 +265,7 @@ section h1:hover{
 
 
     
+
 
 
 
