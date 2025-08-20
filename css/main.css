@@ -14,7 +14,7 @@ html{
   box-sizing:border-box;
 }
 body{
-  background-image:linear-gradient(rgb(2, 45, 61),rgba(0, 247, 255, 0.63),rgba(235, 80, 255, 0.644),rgba(251, 255, 0, 0.644));
+  background-image:repeating-radial-gradient(circle,rgb(3, 42, 44) 0%,rgb(5, 138, 138) 20%);
   display:flex;
   justify-content:center;
   flex-wrap: wrap;
@@ -264,6 +264,7 @@ section h1:hover{
 
 
     
+
 
 
 
