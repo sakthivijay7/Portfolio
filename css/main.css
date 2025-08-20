@@ -88,7 +88,7 @@ body{
   background-image:linear-gradient(red,blue);
   color:transparent;
   transition:2s ease;
-  animation:coloring 3s linear infinite;
+  animation:coloring 7s linear infinite;
 }
 @keyframes coloring{
   25%{background-image:linear-gradient(rgb(0, 195, 255), rgb(255, 255, 255));}
@@ -264,6 +264,7 @@ section h1:hover{
 
 
     
+
 
 
 
