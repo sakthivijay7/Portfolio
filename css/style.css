@@ -71,7 +71,7 @@ section h1{
 
 .project-card {
   max-width: 500px;
-  height: 390px;
+  height: 400px;
   box-sizing:border-box;
   background-color: rgba(255, 255, 255, 0.10);
   padding: 10px;
@@ -202,6 +202,7 @@ display: flex;
    
   }
 }
+
 
 
 
