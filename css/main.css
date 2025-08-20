@@ -15,6 +15,7 @@ html{
 }
 body{
   background-image:repeating-radial-gradient(circle,rgb(3, 42, 44) 0%,rgb(5, 138, 138) 20%);
+    filter: brightness(50%);
   display:flex;
   justify-content:center;
   flex-wrap: wrap;
@@ -264,6 +265,7 @@ section h1:hover{
 
 
     
+
 
 
 
