@@ -80,7 +80,6 @@ body{
   flex-direction:column;
   justify-content:center;
   margin-top: 20%;
-  transform:translateX(-200%);
 
 }
 .intro h1{
@@ -89,8 +88,7 @@ body{
   background-image:linear-gradient(red,blue);
   color:transparent;
   transition:2s ease;
-  transform:translateX(200%);
-  animation:cooverflow-x0s linear infinite;
+  animation:coloring 1s linear infinite;
 }
 @keyframes coloring{
   25%{background-image:linear-gradient(rgb(0, 195, 255), rgb(255, 255, 255));}
@@ -267,6 +265,7 @@ section h1:hover{
 
 
     
+
 
 
 
