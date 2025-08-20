@@ -6,7 +6,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
             <meta name="description" content="sakthikumar portfolio-Aspiring data scientist with skills in Python,Java,Excel,Powerbi,tableau and more">       
             <link rel="stylesheet" href="css/main.css">
-           <link rel="icon" href="/icons/java.png" type="image/png">            
+           <link rel="icon" href="/icons/java.png" type="image/png"> 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <video autoplay muted loop playsinline preload="auto"
@@ -23,12 +24,12 @@
         </nav>
         
         <div class="intro">
-            <h1 >SAKTHIKUMAR<br /></h1>
-            <h2 >Aspiring Data Scientist</h2>
+            <h1  data-aos="fade-down-right" data-aos-delay="300">SAKTHIKUMAR<br /></h1>
+            <h2 data-aos="fade-down-left" data-aos-delay="300">Aspiring Data Scientist</h2>
         </div>
         <section id="aboutme">
             <h1 >About Me</h1>
-            <div class="about">
+            <div class="about" data-aos="flip-left"  data-aos-duration="1000">
             <p><span>
               My name is Sakthikumar, and I'm from Dharmapuri, Tamil Nadu, India-636811.<br>  
               Contact: +91 9360614115 | Email: mssakthikumar7@gmail.com<br></span>
@@ -53,7 +54,7 @@
         
         <section id="skills">
   <h1>Skills</h1>   
-  <div class="skill-item"> 
+  <div class="skill-item" data-aos="zoom-in-up"  data-aos-duration="2000"> 
     <span><img src="icons/python.png">Python</span>
     <span><img src="icons/java.png">Java</span>
     <span><img src="icons/web.png">HTML&CSS, JS</span>
@@ -67,9 +68,10 @@
   </div>  
 </section>
         
-        <section id="contact">
+        <section id="contact" >
             <h1>Contact</h1>
-        <div class="contact">
+        <div class="contact" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
                <a href="https://www.linkedin.com/in/sakthikumar7/" target="_blank">
                   <img src="icons/Linkedin.png" alt="Linkedin"> <span>Linked In</span>  </a>
                <a href="https://github.com/sakthivijay7" target="_blank">
@@ -81,9 +83,14 @@
                <a href="https://www.facebook.com/msakthi.kumar.92" target="_blank">
                  <img src="icons/Facebook.png" alt="Facebook"> <span>Facebook</span> </a>    
         </div>    
-        </section>    
+        </section>  
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
     </body>
 </html>       
+
 
 
 
