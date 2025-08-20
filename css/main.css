@@ -14,8 +14,7 @@ html{
   box-sizing:border-box;
 }
 body{
-  background-image:repeating-radial-gradient(circle,rgb(3, 42, 44) 0%,rgb(5, 138, 138) 20%);
-    filter: brightness(50%);
+  background-image:repeating-radial-gradient(rgb(3, 42, 44),rgb(5, 138, 138));
   display:flex;
   justify-content:center;
   flex-wrap: wrap;
@@ -265,6 +264,7 @@ section h1:hover{
 
 
     
+
 
 
 
