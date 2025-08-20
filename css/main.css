@@ -100,7 +100,6 @@ body{
   font-size:23px;
   transition:2s ease;
   color:whitesmoke;
-  transform:translateX(222%);
   text-shadow:1px 1px 1px aqua;
 }
 section h1{
@@ -265,6 +264,7 @@ section h1:hover{
 
 
     
+
 
 
 
