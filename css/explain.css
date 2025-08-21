@@ -1,6 +1,5 @@
 html{
     scroll-behavior:smooth;
-    background-color: #c8f8f8;
 }
 *{
   padding:0;
@@ -161,4 +160,5 @@ button:active{
      }
   
 }
+
 
