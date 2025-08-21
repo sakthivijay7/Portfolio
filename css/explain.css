@@ -17,7 +17,7 @@ body{
   background-repeat:no-repeat;
 }
 .bg{
-  backdrop-filter:blur(20px);
+  backdrop-filter:blur(8px);
 }
 nav{
   width:100%;
@@ -160,6 +160,7 @@ button:active{
      }
   
 }
+
 
 
 
