@@ -15,7 +15,6 @@ body{
   background-image:url("../images/mb1.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-     background-image:linear-gradient(to top right ,rgba(43, 255, 149, 0.877),rgba(233, 42, 250, 0.726),rgba(54, 54, 255, 0.747),rgb(42, 253, 225));
 }
 .bg{
   backdrop-filter:blur(20px);
@@ -161,6 +160,7 @@ button:active{
      }
   
 }
+
 
 
 
